@@ -8,7 +8,7 @@
     "export": "next export"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "15.5.8",
     "react": "latest",
     "react-dom": "latest",
     "@google/generative-ai": "latest",
