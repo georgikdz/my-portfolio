@@ -15,9 +15,9 @@ export default async function handler(req, res) {
 
   try {
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
     
-    const prompt = `${context}\n\nUser Question: ${message}\n\nRespond professionally, under 150 words.`;
+    const prompt = `${context}\n\nUser Question: ${message}\n\nProvide a professional, accurate, and specific response based on the context above. Keep it under 150 words and highlight concrete achievements with numbers when relevant. If the question is outside the scope of the provided context, politely redirect to the information you do have.`;
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const text = response.text();
@@ -25,6 +25,10 @@ export default async function handler(req, res) {
     res.status(200).json({ response: text });
   } catch (error) {
     console.error('Gemini API error:', error);
+    console.error('Error details:', error.message);
+    if (error.message?.includes('API key')) {
+      console.error('⚠️ API Key issue detected');
+    }
     const fallbackResponse = getSmartFallback(message);
     res.status(200).json({ response: fallbackResponse });
   }
