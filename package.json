@@ -8,10 +8,10 @@
     "export": "next export"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "@google/generative-ai": "latest",
-    "lucide-react": "latest"
+    "next": "15.5.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@google/generative-ai": "^0.21.0",
+    "lucide-react": "^0.468.0"
   }
 }
