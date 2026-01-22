@@ -43,10 +43,11 @@ function getSmartFallback(question) {
     return "I'm currently employed at Meta Platforms as an AI Safety & Red-Teaming Analyst (since Oct 2025), working on Llama model safety. While I'm engaged in meaningful work, I'm open to discussing exceptional senior leadership opportunities in AI strategy, product management, or digital transformation roles. As a U.S. Permanent Resident based in NYC with an MBA and 10+ years of experience, I bring proven results across Fortune 500 brands and tech companies.";
   }
   
-  // Check for current employment questions
+  // Check for current employment questions (MUST come before project/work/achievement check)
   if (q.includes('work now') || q.includes('current job') || q.includes('current role') || 
-      q.includes('currently work') || q.includes('where do you work') || q.includes('current employer') ||
-      q.includes('working at') || q.includes('current position')) {
+      q.includes('currently work') || q.includes('where do you work') || q.includes('where does') && q.includes('work') ||
+      q.includes('current employer') || q.includes('working at') || q.includes('current position') ||
+      (q.includes('where') && q.includes('work') && !q.includes('worked'))) {
     return "I currently work at Meta Platforms, Inc. in New York as an AI Safety & Red-Teaming Analyst in the Product Data Operations (MetaAI) team. Since October 2025, I've been improving Llama model safety by conducting adversarial testing and red-teaming to uncover jailbreak vulnerabilities and policy-violating outputs. I analyze model responses for safety and policy compliance using Meta's taxonomy. While I'm happily employed, I'm always open to discussing exceptional senior leadership opportunities in AI strategy or digital transformation.";
   }
   
