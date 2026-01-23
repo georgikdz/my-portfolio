@@ -8,11 +8,11 @@ export default function Hero() {
               <span className="hero-highlight">AI-Driven</span> Digitalization & 
               <span className="hero-highlight">Business Transformation</span> Leader
             </h1>
-            <p className="hero-subtitle">MBA • 10+ Years Experience • U.S. Permanent Resident</p>
+            <p className="hero-subtitle">AI Safety Analyst at Meta • MBA • 10+ Years Experience</p>
             <p className="hero-description">
-              Driving SaaS, AI and digital transformation initiatives across the U.S. and Europe. 
-              Skilled at building smarter products, streamlining operations, and scaling customer success 
-              by aligning business strategy with user needs.
+              Currently improving Llama model safety at Meta through AI red-teaming and adversarial testing. 
+              10+ years of experience driving AI strategy and digital transformation across the U.S. and Europe, 
+              with proven results in building smarter products and delivering measurable business impact.
             </p>
             <div className="hero-buttons">
               <a href="#contact" className="btn">
