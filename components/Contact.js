@@ -130,7 +130,7 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
       <div className="container">
         <h2 className="section-title">Get In Touch</h2>
         <div className="contact-intro">
-          <p>I'm currently open to new opportunities in the NYC area. Let's build something great together!</p>
+          <p>Currently at Meta, but always open to discussing exceptional senior leadership opportunities in AI strategy, product management, and digital transformation.</p>
         </div>
         
         <div className="contact-links">

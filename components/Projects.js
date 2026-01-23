@@ -1,6 +1,15 @@
 export default function Projects() {
   const projects = [
     {
+      title: "AI Model Safety & Red-Teaming",
+      description: "Improving Llama model safety at Meta Platforms by conducting adversarial testing and red-teaming to uncover jailbreak vulnerabilities and policy-violating outputs. Analyzing and categorizing model responses for safety and policy compliance using Meta's taxonomy.",
+      tech: ["AI Safety", "Red-Teaming", "Adversarial Testing", "Llama Models", "Policy Compliance", "Model Evaluation"],
+      metrics: "Identifying vulnerabilities in Meta's Llama language models for improved AI safety",
+      company: "Meta Platforms, Inc.",
+      period: "Oct 2025 - Present",
+      featured: true
+    },
+    {
       title: "AI Strategy & Business Transformation",
       description: "Led comprehensive AI adoption initiative at Advance Valuations, identifying 20+ automation opportunities and training 50+ employees. Designed and implemented AI solutions that automated routine tasks across core business functions.",
       tech: ["AI Strategy", "Process Automation", "Change Management", "Data Assessment", "Stakeholder Engagement"],
