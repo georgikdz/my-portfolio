@@ -1,45 +1,10 @@
-export default function Hero() {
-  return (
-    <section id="home" className="hero">
-      <div className="container">
-        <div className="hero-content">
-          <div className="hero-text">
-            <h1>
-              <span className="hero-highlight">AI-Driven</span> Digitalization & 
-              <span className="hero-highlight">Business Transformation</span> Leader
-            </h1>
-            <p className="hero-subtitle">MBA • 10+ Years Experience • U.S. Permanent Resident</p>
-            <p className="hero-description">
-              Driving SaaS, AI and digital transformation initiatives across the U.S. and Europe. 
-              Skilled at building smarter products, streamlining operations, and scaling customer success 
-              by aligning business strategy with user needs.
-            </p>
-            <div className="hero-buttons">
-              <a href="#contact" className="btn">
-                💬 Let's Connect
-              </a>
-              <a href="/resume.pdf" className="btn btn-outline" download>
-                📄 Download Resume
-              </a>
-            </div>
-            <div className="hero-skills">
-              <span className="skill-tag">AI Strategy & Implementation</span>
-              <span className="skill-tag">Business Transformation</span>
-              <span className="skill-tag">Project Management</span>
-              <span className="skill-tag">Digital Innovation</span>
-              <span className="skill-tag">Agile Methodologies</span>
-            </div>
-          </div>
-          
-          <div className="hero-image">
-            <img 
-              src="/headshot.jpg" 
-              alt="Georgi Kardzhaliyski - Professional headshot"
-              className="headshot"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
+const Hero = () => {
+    return (
+        <section>
+            <h2>AI Safety Analyst at Meta • MBA • 10+ Years Experience</h2>
+            <p>Lead with current role at Meta, focusing on AI safety and ethical implications of technology.</p>
+        </section>
+    );
+};
+
+export default Hero;
