@@ -1,5 +1,28 @@
+// ProjectCard component for rendering individual projects
+function ProjectCard({ project }) {
+  return (
+    <div className="project-card">
+      <div className="project-header">
+        <h3 className="project-title">{project.title}</h3>
+        <span className="project-company">{project.company}</span>
+        <span className="project-period">{project.period}</span>
+      </div>
+      <p className="project-description">{project.description}</p>
+      <div className="project-tech">
+        {project.tech.map((tech, i) => (
+          <span key={i} className="tech-tag">{tech}</span>
+        ))}
+      </div>
+      {project.metrics && (
+        <p className="project-metrics">📈 {project.metrics}</p>
+      )}
+    </div>
+  );
+}
+
 export default function Projects() {
-  const projects = [
+  // Featured projects (most recent, high-impact)
+  const featuredProjects = [
     {
       title: "AI Model Safety & Red-Teaming",
       description: "Improving Llama model safety at Meta Platforms by conducting adversarial testing and red-teaming to uncover jailbreak vulnerabilities and policy-violating outputs. Analyzing and categorizing model responses for safety and policy compliance using Meta's taxonomy.",
@@ -10,6 +33,15 @@ export default function Projects() {
       featured: true
     },
     {
+      title: "Tech Startup Product Leadership",
+      description: "Led 5 product launches at Mitrend (Boston-based tech startup), managing cross-continental engineering and design teams. Conducted 20+ UX studies and achieved 20% increase in product-market fit.",
+      tech: ["Product Management", "UX Research", "Agile", "Team Leadership", "Quality Assurance"],
+      metrics: "20% increase in product-market fit, 45% faster response times",
+      company: "Mitrend",
+      period: "2013-2022",
+      featured: true
+    },
+    {
       title: "AI Strategy & Business Transformation",
       description: "Led comprehensive AI adoption initiative at Advance Valuations, identifying 20+ automation opportunities and training 50+ employees. Designed and implemented AI solutions that automated routine tasks across core business functions.",
       tech: ["AI Strategy", "Process Automation", "Change Management", "Data Assessment", "Stakeholder Engagement"],
@@ -17,102 +49,62 @@ export default function Projects() {
       company: "Advance Valuations",
       period: "2024-2025",
       featured: true
-    },
+    }
+  ];
+
+  // Earlier career projects (consulting, early roles)
+  const earlierCareerProjects = [
     {
-      title: "AI-Driven Project Management Suite", 
-      description: "Built 5 project management tools using Generative AI at SoftGroup, streamlining complex workflows for pharmaceutical traceability technology. Applied agile methodologies to boost team efficiency and ensure client alignment.",
-      tech: ["Generative AI", "Project Management", "Agile", "Pharmaceutical Tech", "Workflow Optimization"],
-      metrics: "30% faster project delivery, 10% increase in client satisfaction",
-      company: "SoftGroup",
-      period: "2024",
-      featured: true
-    },
-    {
-      title: "SME AI Adoption Platform",
-      description: "Enabled 5,000+ SMEs to adopt AI tools through the Austrian Economic Chamber initiative. Surveyed 30,000+ businesses to identify AI-optimizable functions and delivered MVP matching SMEs with tailored AI solutions.",
-      tech: ["Market Research", "AI Tool Matching", "MVP Development", "Training Hub", "Business Analysis"],
-      metrics: "40% boost in AI tool usage, 5,000+ businesses enabled",
-      company: "Austrian Economic Chamber",
-      period: "2023-2024",
-      featured: true
-    },
-    {
-      title: "Customer Support Optimization",
-      description: "Reduced Zendesk tickets by 30% for Camping Vision through data-driven insights and cross-cultural workflow mapping. Analyzed engagement patterns and delivered comprehensive improvement roadmap.",
-      tech: ["Zendesk", "Google Analytics", "Customer Support", "Data Analysis", "Process Optimization"],
-      metrics: "30% reduction in support tickets",
-      company: "Camping Vision",
-      period: "2023",
-      featured: false
-    },
-    {
-      title: "Revenue Growth Strategy - KTM",
-      description: "Outlined €62M growth plan for KTM Bike Industries through EU driving school partnerships and customer incentive programs. Built revenue forecasts using scenario modeling and market data analysis.",
-      tech: ["Revenue Strategy", "Partnership Development", "Financial Modeling", "Market Analysis"],
-      metrics: "€62M projected revenue growth",
+      title: "€62M Revenue Growth Strategy",
+      description: "Architected a comprehensive market expansion strategy for KTM Motorcycles through innovative EU driving school partnerships and customer acquisition modeling. Designed a license fee reimbursement program with exclusive membership benefits to convert driving school students into KTM customers, supported by detailed scenario modeling and market analysis.",
+      tech: ["Strategic Planning", "Partnership Development", "Revenue Modeling", "Market Analysis", "Customer Acquisition", "B2B Sales Strategy"],
+      metrics: "€62M projected revenue growth | EU-wide driving school partnership model | License reimbursement incentive program",
       company: "KTM Bike Industries",
-      period: "2023",
+      period: "Vienna, Austria",
       featured: false
     },
     {
-      title: "Tech Startup Product Leadership",
-      description: "Led 5 product launches at Mitrend (Boston-based tech startup), managing cross-continental engineering and design teams. Conducted 20+ UX studies and achieved 20% increase in product-market fit.",
-      tech: ["Product Management", "UX Research", "Agile", "Team Leadership", "Quality Assurance"],
-      metrics: "20% increase in product-market fit, 45% faster response times",
-      company: "Mitrend",
-      period: "2013-2022",
+      title: "IT Service Management Transformation",
+      description: "Led ITSM adoption and knowledge management initiatives at Biogen's Boston headquarters, supporting 200+ IT employees serving global neurological treatment operations. Reduced IT escalations by 40% through comprehensive training programs and established a knowledge base infrastructure serving 50 front-line support technicians.",
+      tech: ["ITSM", "Knowledge Management", "Technical Training", "Process Optimization", "Cross-functional Collaboration", "Documentation"],
+      metrics: "40% reduction in IT escalations | Trained 50+ IT support staff | Authored 100+ KB articles | Enabled 200+ IT employees",
+      company: "Biogen",
+      period: "Jan 2012 - Aug 2012",
       featured: false
     }
   ];
 
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section projects-section">
       <div className="container">
-        <h2 className="section-title">Featured Projects & Achievements</h2>
-        <p style={{ textAlign: 'center', fontSize: '1.2rem', color: '#4a5568', marginBottom: '48px', maxWidth: '700px', margin: '0 auto 48px' }}>
-          A showcase of AI-driven transformations, business optimizations, and strategic initiatives 
-          that delivered measurable impact across industries and continents
-        </p>
-        
+        {/* Featured Work Section */}
+        <h2 className="section-title">Featured Work</h2>
         <div className="projects-grid">
-          {projects.filter(project => project.featured).map((project, index) => (
-            <div key={index} className="project-card">
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px' }}>
-                <h3 className="project-title">{project.title}</h3>
-                <span style={{ fontSize: '0.8rem', color: '#718096', fontWeight: '500' }}>{project.period}</span>
-              </div>
-              <p style={{ fontSize: '0.9rem', color: '#667eea', fontWeight: '600', marginBottom: '12px' }}>
-                {project.company}
-              </p>
-              <p className="project-description">{project.description}</p>
-              
-              <div className="project-metrics">
-                📈 {project.metrics}
-              </div>
-              
-              <div className="tech-tags">
-                {project.tech.map((tech, i) => (
-                  <span key={i} className="tech-tag">{tech}</span>
-                ))}
-              </div>
-              
-              <div className="project-links">
-                <a href="https://www.linkedin.com/in/georgikdz/" className="btn" target="_blank" rel="noopener noreferrer">
-                  💼 View Details on LinkedIn
-                </a>
-              </div>
-            </div>
+          {featuredProjects.map((project, index) => (
+            <ProjectCard key={index} project={project} />
           ))}
         </div>
 
-        <div style={{ textAlign: 'center', marginTop: '48px' }}>
-          <p style={{ fontSize: '1.1rem', color: '#4a5568', marginBottom: '24px' }}>
-            <strong>Additional Experience:</strong> Revenue strategy consulting, loyalty program development, 
-            IT service management, and academic technology leadership across multiple industries.
+        {/* Earlier Career Section - Collapsible */}
+        <div className="early-career-section">
+          <h3 className="subsection-title">Earlier Career & Consulting</h3>
+          <p className="subsection-intro">
+            Strategic consulting and transformation work for Fortune 500 brands across Europe and the U.S.
           </p>
-          <a href="https://www.linkedin.com/in/georgikdz/" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-            📄 View Complete Experience on LinkedIn
-          </a>
+          
+          <details className="projects-expandable">
+            <summary className="expand-toggle">
+              <span className="toggle-text">View Additional Projects ({earlierCareerProjects.length})</span>
+              <span className="company-badges">KTM • Biogen</span>
+              <span className="chevron">▼</span>
+            </summary>
+            
+            <div className="projects-grid earlier-projects-grid">
+              {earlierCareerProjects.map((project, index) => (
+                <ProjectCard key={index} project={project} />
+              ))}
+            </div>
+          </details>
         </div>
       </div>
     </section>

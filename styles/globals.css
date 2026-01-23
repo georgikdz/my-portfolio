@@ -575,6 +575,123 @@ body {
   font-size: 1rem;
 }
 
+/* Earlier Career Section */
+.early-career-section {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.subsection-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.subsection-intro {
+  font-size: 1rem;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+}
+
+/* Collapsible Details Element */
+.projects-expandable {
+  margin-top: 1.5rem;
+}
+
+.projects-expandable summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.25rem 1.5rem;
+  background: rgba(30, 64, 175, 0.05);
+  border: 1px solid rgba(30, 64, 175, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.projects-expandable summary:hover {
+  background: rgba(30, 64, 175, 0.08);
+  border-color: rgba(30, 64, 175, 0.2);
+  transform: translateY(-2px);
+}
+
+.projects-expandable summary::-webkit-details-marker {
+  display: none;
+}
+
+.toggle-text {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2d3748;
+}
+
+.company-badges {
+  font-size: 0.9rem;
+  color: #718096;
+  margin: 0 auto 0 1rem;
+}
+
+.chevron {
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+  color: #718096;
+}
+
+.projects-expandable[open] .chevron {
+  transform: rotate(180deg);
+}
+
+/* Earlier Projects Grid */
+.earlier-projects-grid {
+  margin-top: 2rem;
+  animation: slideDown 0.4s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Project Header Styles */
+.project-header {
+  margin-bottom: 16px;
+}
+
+.project-company {
+  display: block;
+  font-size: 0.9rem;
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.project-period {
+  display: block;
+  font-size: 0.8rem;
+  color: #718096;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .container { padding: 0 16px; }
@@ -592,4 +709,20 @@ body {
   .message.user .message-content { margin-left: 0; }
   .message.ai .message-content { margin-right: 0; }
   .form-grid { grid-template-columns: 1fr; }
+  
+  .projects-expandable summary {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .company-badges {
+    margin: 0;
+  }
+  
+  .chevron {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.25rem;
+  }
 }
