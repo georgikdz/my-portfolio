@@ -1,36 +1,27 @@
-import Navigation from '../components/Navigation'
-import Hero from '../components/Hero'
-import Projects from '../components/Projects'
-import Contact from '../components/Contact'
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Your Portfolio | AI Safety & Red-Teaming Analyst at Meta</title>
+        <meta name="description" content="Welcome to my portfolio! I am an AI Safety & Red-Teaming Analyst at Meta Platforms, working on Llama model safety since October 2025." />
+        <meta property="og:title" content="AI Safety & Red-Teaming Analyst at Meta" />
+        <meta property="og:description" content="Explore my portfolio and professional journey as an AI Safety & Red-Teaming Analyst at Meta Platforms with a strong background in AI safety and red-teaming practices." />
+        <meta property="og:url" content="https://yourportfolio.com" />
+        <meta property="og:image" content="https://yourportfolio.com/image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="AI Safety & Red-Teaming Analyst at Meta" />
+        <meta name="twitter:description" content="Discover my work and expertise in AI safety at Meta Platforms." />
+        <meta name="twitter:image" content="https://yourportfolio.com/image.jpg" />
+      </Head>
       <Navigation />
-      <main style={{ paddingTop: '80px' }}>
-        <Hero />
-        
-        <section id="about" className="section about-section">
-          <div className="container">
-            <h2 className="section-title">About Me</h2>
-            <div className="about-content">
-              <p className="about-text">
-                I'm a seasoned business transformation leader with 10+ years of experience driving SaaS, AI, 
-                and digital transformation initiatives across the U.S. and Europe. Currently based in Sunnyside, NY, 
-                I specialize in identifying automation opportunities, implementing AI solutions, and streamlining 
-                operations to deliver measurable business impact.
-              </p>
-              <p className="about-text">
-                With an MBA and extensive experience in project management, I've successfully led cross-functional teams, 
-                reduced operational costs by up to 25%, and enabled thousands of businesses to adopt cutting-edge AI tools. 
-                My approach combines strategic thinking with hands-on execution to build smarter products and scale customer success.
-              </p>
-            </div>
-          </div>
+      <main>
+        <section>
+          <h1>About Me</h1>
+          <p>I am currently working at Meta Platforms as an AI Safety & Red-Teaming Analyst. My responsibilities include ensuring the safety of the Llama model, focusing on its ethical and safe deployment since October 2025.</p>
+          <p>With over 10 years of experience, I hold a solid educational background that includes WPI, an MBA, and studies in Copenhagen and Vienna.</p>
         </section>
-        
-        <Projects />
-        <Contact />
       </main>
     </>
   );
