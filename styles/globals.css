@@ -298,6 +298,67 @@ body {
   font-size: 0.9rem;
 }
 
+/* Earlier Career Section */
+.early-career-section {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.subsection-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.subsection-intro {
+  color: #718096;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.projects-expandable summary {
+  cursor: pointer;
+  padding: 1.25rem;
+  background: rgba(30, 64, 175, 0.05);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.projects-expandable summary::-webkit-details-marker {
+  display: none;
+}
+
+.projects-expandable summary:hover {
+  background: rgba(30, 64, 175, 0.08);
+}
+
+.brands {
+  color: #667eea;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.chevron {
+  transition: transform 0.3s ease;
+  font-size: 0.8rem;
+  color: #4a5568;
+}
+
+.projects-expandable[open] .chevron {
+  transform: rotate(180deg);
+}
+
+.projects-expandable .projects-grid {
+  margin-top: 2rem;
+}
+
 /* Contact Section */
 .contact-section {
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
