@@ -62,6 +62,15 @@ export default function Projects() {
       company: "Mitrend",
       period: "2013-2022",
       featured: false
+    },
+    {
+      title: "IT Service Management Transformation",
+      description: "Led ITSM adoption and knowledge management initiatives at Biogen's Boston headquarters, supporting 200+ IT employees serving global neurological treatment operations. Reduced IT escalations by 40% through comprehensive training programs and established a knowledge base infrastructure serving 50 front-line support technicians.",
+      tech: ["ITSM", "Knowledge Management", "Technical Training", "Process Optimization", "Cross-functional Collaboration", "Documentation"],
+      metrics: "40% reduction in IT escalations | Trained 50+ IT support staff | Authored 100+ KB articles | Enabled 200+ IT employees",
+      company: "Biogen",
+      period: "Jan 2012 - Aug 2012",
+      featured: false
     }
   ];
 
