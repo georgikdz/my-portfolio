@@ -119,9 +119,9 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
   };
 
   const quickQuestions = [
-    "What are Georgi's biggest strengths in AI and transformation?",
-    "Tell me about Georgi's international experience", 
-    "What's Georgi's most impactful project?",
+    "What are your biggest strengths in AI and transformation?",
+    "Tell me about your international experience", 
+    "What's your most impactful project?",
     "Is Georgi available for new opportunities right now?"
   ];
 
@@ -130,7 +130,7 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
       <div className="container">
         <h2 className="section-title">Get In Touch</h2>
         <div className="contact-intro">
-          <p>I'm currently open to new opportunities in the NYC area. Let's build something great together!</p>
+          <p>Currently at Meta, but always open to discussing exceptional senior leadership opportunities in AI strategy, product management, and digital transformation.</p>
         </div>
         
         <div className="contact-links">
