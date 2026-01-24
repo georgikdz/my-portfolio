@@ -123,9 +123,9 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
   };
 
   const quickQuestions = [
-    "What are your biggest strengths in AI and transformation?",
-    "Tell me about your international experience", 
-    "What's your most impactful project?",
+    "What are Georgi's biggest strengths in AI and transformation?",
+    "Tell me about Georgi's international experience", 
+    "What's Georgi's most impactful project?",
     "Is Georgi available for new opportunities right now?"
   ];
 
