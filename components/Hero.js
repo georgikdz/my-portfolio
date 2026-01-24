@@ -4,11 +4,8 @@ export default function Hero() {
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>
-              <span className="hero-highlight">AI-Driven</span> Digitalization & 
-              <span className="hero-highlight">Business Transformation</span> Leader
-            </h1>
-            <p className="hero-subtitle">AI Safety Analyst at Meta • MBA • 10+ Years Experience</p>
+            <h1 className="hero-title">Georgi Kardzhaliyski, MBA</h1>
+            <p className="hero-subtitle">Product & Research · Product Data Operations · GenAI</p>
             <p className="hero-description">
               Currently improving Llama model safety at Meta through AI red-teaming and adversarial testing. 
               10+ years of experience driving AI strategy and digital transformation across the U.S. and Europe, 
