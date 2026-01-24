@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Georgi Kardzhaliyski | AI Safety Analyst at Meta | Digital Transformation Leader</title>
+        <title>Georgi Kardzhaliyski, MBA · Product & Research · Product Data Operations · GenAI</title>
         <meta name="description" content="AI Safety & Red-Teaming Analyst at Meta working on Llama model safety. 10+ years driving AI strategy & digital transformation. 25% efficiency gains, 5,000+ businesses transformed. Based in NYC." />
         <meta property="og:title" content="Georgi Kardzhaliyski - AI Safety Analyst at Meta" />
         <meta property="og:description" content="AI Safety & Red-Teaming Analyst at Meta | AI Strategy & Digital Transformation Expert | 10+ Years Experience" />
