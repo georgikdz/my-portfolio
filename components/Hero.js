@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">
-            <h1 className="hero-title">Georgi Kardzhaliyski, MBA</h1>
+            <h1 className="hero-title">Georgi Kardzhaliyski</h1>
             <p className="hero-subtitle">Product & Research · Product Data Operations · GenAI</p>
             <p className="hero-description">
               Currently improving Llama model safety at Meta through AI red-teaming and adversarial testing. 
