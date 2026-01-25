@@ -93,6 +93,38 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.nav-center {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-location {
+  font-size: 15px;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.nav-cta {
+  background: white;
+  color: #1e40af;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid #1e40af;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.nav-cta:hover {
+  background: #1e40af;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.25);
+}
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -640,8 +672,21 @@ body {
 @media (max-width: 768px) {
   .container { padding: 0 16px; }
   .section { padding: 60px 0; }
-  .nav-content { flex-direction: column; gap: 16px; }
-  .nav-links { gap: 20px; }
+  .nav-content { 
+    flex-direction: column; 
+    gap: 16px;
+  }
+  .nav-center {
+    order: 2;
+  }
+  .nav-links { 
+    gap: 20px;
+    order: 3;
+  }
+  .nav-cta {
+    padding: 6px 16px;
+    font-size: 13px;
+  }
   .hero-content { grid-template-columns: 1fr; gap: 40px; text-align: center; }
   .hero-image { order: -1; max-width: 300px; margin: 0 auto; }
   .headshot { height: 350px; }
@@ -653,4 +698,10 @@ body {
   .message.user .message-content { margin-left: 0; }
   .message.ai .message-content { margin-right: 0; }
   .form-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .nav-location {
+    display: none;
+  }
 }
