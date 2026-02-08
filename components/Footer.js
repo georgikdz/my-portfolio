@@ -32,7 +32,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>© {currentYear} Georgi Kardzhaliyski. Built with Next.js & Gemini AI.</p>
-          <a href="#home" className="back-to-top">↑ Back to top</a>
+          <a href="#home" className="back-to-top" aria-label="Back to top">↑ Back to top</a>
         </div>
       </div>
     </footer>
