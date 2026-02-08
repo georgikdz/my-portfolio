@@ -24,14 +24,14 @@ export default function Footer() {
 
           <div className="footer-status">
             <span className="status-badge">
-              <span className="status-dot"></span>
+              <span class="status-dot"></span>
               Open to senior AI & product leadership roles
             </span>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>© {currentYear} Georgi Kardzhaliyski. Built with Next.js & Gemini AI.</p>
+          <p>© {currentYear} Georgi Kardzhaliyski. Designed & built from scratch with Claude, Next.js 15, React 19 & Gemini AI · Deployed on Vercel.</p>
           <a href="#home" className="back-to-top" aria-label="Back to top">↑ Back to top</a>
         </div>
       </div>
