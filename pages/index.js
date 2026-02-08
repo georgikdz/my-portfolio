@@ -21,6 +21,25 @@ export default function Home() {
         <meta name="twitter:image" content="https://georgikdz.vercel.app/headshot.jpg" />
         <meta name="keywords" content="AI Strategy, Digital Transformation, Meta, Llama, AI Safety, Red Teaming, Business Transformation, Product Management, NYC, Georgi Kardzhaliyski" />
         <link rel="canonical" href="https://georgikdz.vercel.app" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Georgi Kardzhaliyski",
+          "jobTitle": "AI Safety & Red-Teaming Analyst",
+          "worksFor": { "@type": "Organization", "name": "Meta Platforms" },
+          "url": "https://georgikdz.vercel.app",
+          "sameAs": [
+            "https://linkedin.com/in/georgikdz",
+            "https://github.com/georgikdz"
+          ],
+          "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "Worcester Polytechnic Institute" },
+            { "@type": "CollegeOrUniversity", "name": "Cambridge College" },
+            { "@type": "CollegeOrUniversity", "name": "Copenhagen Business School" },
+            { "@type": "CollegeOrUniversity", "name": "Vienna University of Economics and Business" }
+          ],
+          "knowsAbout": ["AI Strategy", "Digital Transformation", "AI Safety", "Red Teaming", "Product Management", "Business Transformation"]
+        }) }} />
       </Head>
       <Navigation />
       <main style={{ paddingTop: '80px' }}>
