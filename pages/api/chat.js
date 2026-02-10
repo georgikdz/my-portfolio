@@ -64,8 +64,8 @@ function getSmartFallback(question) {
     return "Georgi holds a BS from Worcester Polytechnic Institute (awarded Student Employee of the Year), an MBA from Cambridge College, and completed specialized graduate studies in Organizational Innovation & Entrepreneurship at Copenhagen Business School, plus Strategy & Innovation at Vienna University of Economics. This educational foundation supports his current work at Meta on AI safety and his track record of driving digital transformation initiatives.";
   }
   
-  if (q.includes('international') || q.includes('europe') || q.includes('marathon') || q.includes('global')) {
-    return "Georgi has extensive international experience, having worked across the U.S. and Europe (Austria, Denmark) with Fortune 500 brands like KTM and Atomic. Currently at Meta in NYC, he brings this global perspective to AI safety work. He's also a dedicated marathon runner who has completed races across 8+ international cities, which reflects his discipline and persistence—qualities that serve well in complex AI safety and transformation initiatives.";
+  if (q.includes('international') || q.includes('europe') || q.includes('marathon') || q.includes('global') || q.includes('running') || q.includes('world marathon majors')) {
+    return "Georgi has extensive international experience, having worked across the U.S. and Europe (Austria, Denmark) with Fortune 500 brands like KTM and Atomic. Currently at Meta in NYC, he brings this global perspective to AI safety work. He's also pursuing the World Marathon Majors—an elite quest to run all 7 major marathons. So far, he's completed 3/7: Chicago (2019), Berlin (2021), and NYC (2022), with Sydney scheduled for August 2026. This reflects his exceptional discipline, goal-setting ability, and persistence—qualities that serve well in complex AI safety and transformation initiatives.";
   }
   
   if (q.includes('location') || q.includes('where') || q.includes('based') || q.includes('visa')) {

@@ -47,7 +47,7 @@ Differentiators:
 - Currently contributing to AI safety at Meta while remaining open to exceptional opportunities
 - NYC-based, U.S. Permanent Resident—no visa hurdles
 - Cross-continental team leadership; stakeholder alignment; measurable ROI
-- Marathon runner across 8+ international cities—discipline and resilience
+- World Marathon Majors runner: 3/7 completed (Chicago 2019, Berlin 2021, NYC 2022), running Sydney in August 2026—demonstrates exceptional discipline, goal-setting, and persistence
 - Elite education: BS, MBA plus specialized graduate studies in Innovation & Entrepreneurship
 
 IMPORTANT: When asked about availability, job seeking, or opportunities - emphasize that Georgi is currently at Meta working on AI safety, but always open to discussing exceptional senior leadership opportunities. He is based in NYC as a U.S. Permanent Resident with no visa complications.
@@ -105,7 +105,7 @@ The role offers:
 • International/remote work flexibility
 • Growth opportunities in ${companyFocus || 'digital innovation'}
 
-Your combination of elite education (MBA plus specialized studies in Innovation & Entrepreneurship), proven enterprise-level results, and exceptional discipline (marathon runner across 8+ international cities) makes you an ideal candidate for this position.
+Your combination of elite education (MBA plus specialized studies in Innovation & Entrepreneurship), proven enterprise-level results, and exceptional discipline (World Marathon Majors runner: 3/7 completed—Chicago 2019, Berlin 2021, NYC 2022, running Sydney in August 2026) makes you an ideal candidate for this position.
 
 As a U.S. Permanent Resident based in NYC, you're immediately available with no visa complications—which is a significant advantage for our timeline.
 
@@ -324,7 +324,7 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
                     ✅ <strong>Enterprise-Level Results:</strong> Managed complex pharmaceutical traceability projects, reduced support tickets by 30%, and built AI-driven solutions that serve millions of users
                   </li>
                   <li style={{ marginBottom: '12px' }}>
-                    ✅ <strong>Exceptional Discipline & Drive:</strong> Marathon runner across 8+ international cities—demonstrates the persistence and goal-oriented mindset essential for large-scale transformation initiatives
+                    ✅ <strong>Exceptional Discipline & Drive:</strong> World Marathon Majors runner: 3/7 completed (Chicago 2019, Berlin 2021, NYC 2022), running Sydney in August 2026—demonstrates exceptional goal-setting, persistence, and the discipline essential for large-scale transformation initiatives
                   </li>
                 </ul>
 
@@ -351,7 +351,7 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
                         ✅ <strong>Scale Expertise:</strong> Led teams across continents, enabled thousands of AI adoptions, managed enterprise-level implementations
                       </li>
                       <li style={{ marginBottom: '10px' }}>
-                        ✅ <strong>Executive Presence:</strong> Marathon discipline across 8+ countries reflects the persistence needed for complex business transformations
+                        ✅ <strong>Executive Presence:</strong> World Marathon Majors pursuit (3/7 completed: Chicago, Berlin, NYC; Sydney upcoming) reflects exceptional goal-setting and persistence needed for complex business transformations
                       </li>
                     </ul>
                   </div>
