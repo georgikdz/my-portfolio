@@ -246,6 +246,13 @@ body {
   margin-bottom: 24px;
 }
 
+.about-content p:last-child {
+  margin-top: 40px;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #4a5568;
+}
+
 /* Projects */
 .projects-grid {
   display: grid;
