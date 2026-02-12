@@ -63,7 +63,7 @@ export default function Home() {
                 an MBA from Cambridge College, and specialized graduate studies from Copenhagen Business School and Vienna University of Economics.
               </p>
               <p className="about-text">
-                Beyond my professional work, I'm pursuing the World Marathon Majors—a personal quest to run all 7 of the world's most prestigious marathons. So far, I've completed 3/7: Chicago (2019), Berlin (2021), and NYC (2022), with Sydney scheduled for August 2026. This journey reflects the same discipline, persistence, and goal-oriented mindset I bring to driving AI strategy and digital transformation initiatives.
+                Beyond my professional work, I'm pursuing the World Marathon Majors -- 9 marathons run, 3 of 7 majors completed: Chicago (2019), Berlin (2021), NYC (2022). Sydney is next in August 2026.
               </p>
             </div>
           </div>

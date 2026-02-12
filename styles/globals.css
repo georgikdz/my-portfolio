@@ -246,6 +246,11 @@ body {
   margin-bottom: 24px;
 }
 
+.about-content p:last-child {
+  margin-top: 40px;
+  font-size: 0.95rem;
+}
+
 /* Projects */
 .projects-grid {
   display: grid;

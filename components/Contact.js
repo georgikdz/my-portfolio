@@ -45,9 +45,9 @@ Enterprise Results:
 
 Differentiators:
 - Currently contributing to AI safety at Meta while remaining open to exceptional opportunities
-- NYC-based, U.S. Permanent Resident—no visa hurdles
+- NYC-based, U.S. Permanent Resident -- no visa hurdles
 - Cross-continental team leadership; stakeholder alignment; measurable ROI
-- World Marathon Majors runner: 3/7 completed (Chicago 2019, Berlin 2021, NYC 2022), running Sydney in August 2026—demonstrates exceptional discipline, goal-setting, and persistence
+- World Marathon Majors runner: 9 marathons completed total, 3 of 7 majors done (Chicago 2019, Berlin 2021, NYC 2022), running Sydney in August 2026 -- demonstrates exceptional discipline, goal-setting, and persistence
 - Elite education: BS, MBA plus specialized graduate studies in Innovation & Entrepreneurship
 
 IMPORTANT: When asked about availability, job seeking, or opportunities - emphasize that Georgi is currently at Meta working on AI safety, but always open to discussing exceptional senior leadership opportunities. He is based in NYC as a U.S. Permanent Resident with no visa complications.
@@ -105,9 +105,9 @@ The role offers:
 • International/remote work flexibility
 • Growth opportunities in ${companyFocus || 'digital innovation'}
 
-Your combination of elite education (MBA plus specialized studies in Innovation & Entrepreneurship), proven enterprise-level results, and exceptional discipline (World Marathon Majors runner: 3/7 completed—Chicago 2019, Berlin 2021, NYC 2022, running Sydney in August 2026) makes you an ideal candidate for this position.
+Your combination of elite education (MBA plus specialized studies in Innovation & Entrepreneurship), proven enterprise-level results, and exceptional discipline (World Marathon Majors runner: 9 marathons completed total, 3 of 7 majors done -- Chicago 2019, Berlin 2021, NYC 2022, running Sydney in August 2026) makes you an ideal candidate for this position.
 
-As a U.S. Permanent Resident based in NYC, you're immediately available with no visa complications—which is a significant advantage for our timeline.
+As a U.S. Permanent Resident based in NYC, you're immediately available with no visa complications -- which is a significant advantage for our timeline.
 
 Would you be interested in learning more about this opportunity? I'd love to schedule a brief call to discuss how your expertise could contribute to our mission.
 
@@ -119,7 +119,7 @@ ${companyName || '[Company Name]'}
 [recruiter-email@company.com]
 [phone number]
 
-P.S. I was impressed by your AI-powered portfolio—it really showcases your technical innovation and forward-thinking approach!`;
+P.S. I was impressed by your AI-powered portfolio -- it really showcases your technical innovation and forward-thinking approach!`;
   };
 
   const quickQuestions = [
@@ -306,13 +306,13 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
                 <h4>🎯 Why Georgi is the Ideal Candidate:</h4>
                 <ul style={{ textAlign: 'left' }}>
                   <li style={{ marginBottom: '12px' }}>
-                    ✅ <strong>Strategic Location & Availability:</strong> NYC-based (Sunnyside) with U.S. Permanent Resident status—no visa complications; immediately available for leadership roles
+                    ✅ <strong>Strategic Location & Availability:</strong> NYC-based (Sunnyside) with U.S. Permanent Resident status -- no visa complications; immediately available for leadership roles
                   </li>
                   <li style={{ marginBottom: '12px' }}>
                     ✅ <strong>Proven AI Transformation Leader:</strong> 10+ years driving measurable digital transformation with quantified results: 25% operational efficiency gains, 30% faster project delivery, €62M revenue growth strategies
                   </li>
                   <li style={{ marginBottom: '12px' }}>
-                    ✅ <strong>Global Business Acumen:</strong> Extensive international experience across U.S. and European markets (Austria, Denmark), working with Fortune 500 brands like KTM and Atomic—brings invaluable cross-cultural perspective
+                    ✅ <strong>Global Business Acumen:</strong> Extensive international experience across U.S. and European markets (Austria, Denmark), working with Fortune 500 brands like KTM and Atomic -- brings invaluable cross-cultural perspective
                   </li>
                   <li style={{ marginBottom: '12px' }}>
                     ✅ <strong>Elite Education & Expertise:</strong> MBA from Cambridge College plus specialized graduate studies in Innovation & Entrepreneurship (Copenhagen Business School) and Strategy (Vienna University of Economics)
@@ -324,7 +324,7 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
                     ✅ <strong>Enterprise-Level Results:</strong> Managed complex pharmaceutical traceability projects, reduced support tickets by 30%, and built AI-driven solutions that serve millions of users
                   </li>
                   <li style={{ marginBottom: '12px' }}>
-                    ✅ <strong>Exceptional Discipline & Drive:</strong> World Marathon Majors runner: 3/7 completed (Chicago 2019, Berlin 2021, NYC 2022), running Sydney in August 2026—demonstrates exceptional goal-setting, persistence, and the discipline essential for large-scale transformation initiatives
+                    ✅ <strong>Exceptional Discipline & Drive:</strong> World Marathon Majors runner: 9 marathons completed total, 3 of 7 majors done (Chicago 2019, Berlin 2021, NYC 2022), running Sydney in August 2026 -- demonstrates exceptional goal-setting, persistence, and the discipline essential for large-scale transformation initiatives
                   </li>
                 </ul>
 
@@ -336,7 +336,7 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
                     <h5 style={{ marginBottom: '16px', color: '#2d3748', fontSize: '1.1rem' }}>⚡ Why Georgi Delivers Results:</h5>
                     <ul style={{ textAlign: 'left' }}>
                       <li style={{ marginBottom: '10px' }}>
-                        ✅ <strong>Immediate Impact:</strong> NYC-based, U.S. Permanent Resident—ready to start driving transformation from day one
+                        ✅ <strong>Immediate Impact:</strong> NYC-based, U.S. Permanent Resident -- ready to start driving transformation from day one
                       </li>
                       <li style={{ marginBottom: '10px' }}>
                         ✅ <strong>Proven ROI:</strong> 25% efficiency gains, €62M revenue strategies, 5,000+ businesses successfully transformed
@@ -351,7 +351,7 @@ P.S. I was impressed by your AI-powered portfolio—it really showcases your tec
                         ✅ <strong>Scale Expertise:</strong> Led teams across continents, enabled thousands of AI adoptions, managed enterprise-level implementations
                       </li>
                       <li style={{ marginBottom: '10px' }}>
-                        ✅ <strong>Executive Presence:</strong> World Marathon Majors pursuit (3/7 completed: Chicago, Berlin, NYC; Sydney upcoming) reflects exceptional goal-setting and persistence needed for complex business transformations
+                        ✅ <strong>Executive Presence:</strong> World Marathon Majors pursuit (9 marathons completed total, 3 of 7 majors done: Chicago, Berlin, NYC; Sydney upcoming) reflects exceptional goal-setting and persistence needed for complex business transformations
                       </li>
                     </ul>
                   </div>
