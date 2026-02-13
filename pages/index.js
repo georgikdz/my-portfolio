@@ -17,10 +17,10 @@ export default function Home() {
         <meta property="og:url" content="https://georgikdz.vercel.app" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Georgi Kardzhaliyski - AI Safety Analyst at Meta" />
+        <meta name="twitter:title" content="Georgi Kardzhaliyski - Building & Breaking GenAI @Meta" />
         <meta name="twitter:description" content="AI Safety & Red-Teaming Analyst at Meta | AI Strategy Expert" />
         <meta name="twitter:image" content="https://georgikdz.vercel.app/headshot.jpg" />
-        <meta name="keywords" content="AI Strategy, Digital Transformation, Meta, Llama, AI Safety, Red Teaming, Business Transformation, Product Management, NYC, Georgi Kardzhaliyski" />
+        <meta name="keywords" content="AI Strategy, Digital Transformation, Meta, Llama, AI Safety, Red Teaming, Business Transformation, Product Management, NYC, Georgi Kardzhaliyski, recruiters NYC, customer success manager NYC" />
         <link rel="canonical" href="https://georgikdz.vercel.app" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
@@ -34,10 +34,10 @@ export default function Home() {
             "https://github.com/georgikdz"
           ],
           "alumniOf": [
-            { "@type": "CollegeOrUniversity", "name": "Worcester Polytechnic Institute" },
+            { "@type": "CollegeOrUniversity", "name": "Worcester Polytechnic Institute (WPI)" },
             { "@type": "CollegeOrUniversity", "name": "Cambridge College" },
-            { "@type": "CollegeOrUniversity", "name": "Copenhagen Business School" },
-            { "@type": "CollegeOrUniversity", "name": "Vienna University of Economics and Business" }
+            { "@type": "CollegeOrUniversity", "name": "Copenhagen Business School (CBS)" },
+            { "@type": "CollegeOrUniversity", "name": "WU (Vienna University of Economics and Business)" }
           ],
           "knowsAbout": ["AI Strategy", "Digital Transformation", "AI Safety", "Red Teaming", "Product Management", "Business Transformation"]
         }) }} />
@@ -45,25 +45,18 @@ export default function Home() {
       <Navigation />
       <main style={{ paddingTop: '80px' }}>
         <Hero />
-        
         <section id="about" className="section about-section">
           <div className="container">
             <h2 className="section-title">About Me</h2>
             <div className="about-content">
               <p className="about-text">
-                I'm currently an AI Safety & Red-Teaming Analyst at Meta Platforms, working on Llama model safety 
-                through adversarial testing and red-teaming to uncover vulnerabilities and ensure policy compliance. 
-                Since October 2025, I've been contributing to Meta's AI safety infrastructure and model evaluation processes.
+              With 10+ years driving AI strategy and digital transformation across the U.S. and Europe, I specialize in bridging technical AI capabilities with business outcomes. I've led AI adoption initiatives that delivered 25% efficiency gains at Advance Valuations, enabled 5,000+ SMEs at the Wirtschaftskammer Österreich (Austrian Economic Chamber) to adopt AI tools, and consulted for leading brands including KTM and Atomic.
+                  </p>
+                <p className="about-text">
+               I hold a BS from Worcester Polytechnic Institute (WPI), an MBA from Cambridge College, and specialized graduate studies from Copenhagen Business School (CBS) and WU (Vienna University of Economics and Business).
               </p>
               <p className="about-text">
-                With 10+ years of experience driving AI strategy and digital transformation across the U.S. and Europe, 
-                I specialize in bridging technical AI capabilities with business strategy. My background includes leading 
-                AI adoption initiatives (25% efficiency gains at Advance Valuations), enabling 5,000+ SMEs to adopt AI tools, 
-                and consulting for Fortune 500 brands like KTM and Atomic. I hold a BS from Worcester Polytechnic Institute, 
-                an MBA from Cambridge College, and specialized graduate studies from Copenhagen Business School and Vienna University of Economics.
-              </p>
-              <p className="about-text">
-                Beyond my professional work, I'm pursuing the World Marathon Majors -- 9 marathons run, 3 of 7 majors completed: Chicago (2019), Berlin (2021), NYC (2022). Sydney is next in August 2026.
+              When I'm not working, you'll find me training for my next marathon. I'm pursuing the World Marathon Majors—a series of the world's most prestigious marathons. So far I've finished Chicago (2019), Berlin (2021), and New York City (2022), plus six other marathons along the way. Sydney is next on the list for August 2026.
               </p>
             </div>
           </div>
