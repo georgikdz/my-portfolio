@@ -49,15 +49,23 @@ export default function Home() {
           <div className="container">
             <h2 className="section-title">About Me</h2>
             <div className="about-content">
-              <p className="about-text">
-              With 10+ years driving AI strategy and digital transformation across the U.S. and Europe, I specialize in bridging technical AI capabilities with business outcomes. I've led AI adoption initiatives that delivered 25% efficiency gains at Advance Valuations, enabled 5,000+ SMEs at the Wirtschaftskammer Österreich (Austrian Economic Chamber) to adopt AI tools, and consulted for leading brands including KTM and Atomic.
-                  </p>
+              <div className="about-item">
                 <p className="about-text">
-               I hold a BS from Worcester Polytechnic Institute (WPI), an MBA from Cambridge College, and specialized graduate studies from Copenhagen Business School (CBS) and WU (Vienna University of Economics and Business).
-              </p>
-              <p className="about-text">
-              When I'm not working, you'll find me training for my next marathon. I'm pursuing the World Marathon Majors—a series of the world's most prestigious marathons. So far, I've finished Chicago (2019), Berlin (2021), and New York City (2022), plus six other marathons along the way. Sydney is next on the list for August 2026.
-              </p>
+                  With 10+ years driving AI strategy and digital transformation across the U.S. and Europe, I specialize in bridging technical AI capabilities with business outcomes. I've led AI adoption initiatives that delivered 25% efficiency gains at Advance Valuations, enabled 5,000+ SMEs at the Wirtschaftskammer Österreich (Austrian Economic Chamber) to adopt AI tools, and consulted for leading brands including KTM and Atomic.
+                </p>
+              </div>
+              
+              <div className="about-item">
+                <p className="about-text">
+                  I hold a BS from Worcester Polytechnic Institute (WPI), an MBA from Cambridge College, and specialized graduate studies from Copenhagen Business School (CBS) and WU (Vienna University of Economics and Business).
+                </p>
+              </div>
+              
+              <div className="about-item about-item-highlight">
+                <p className="about-text">
+                  When I'm not working, you'll find me training for my next marathon. I'm pursuing the <strong>World Marathon Majors</strong>—a series of the world's most prestigious marathons. So far I've finished <strong>Chicago</strong> (2019), <strong>Berlin</strong> (2021), and <strong>New York City</strong> (2022), plus six other marathons along the way. <strong>Sydney</strong> is next on the list for August 2026.
+                </p>
+              </div>
             </div>
           </div>
         </section>
