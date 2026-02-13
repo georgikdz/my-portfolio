@@ -65,7 +65,7 @@ function getSmartFallback(question) {
   }
   
   if (q.includes('international') || q.includes('europe') || q.includes('marathon') || q.includes('global') || q.includes('running') || q.includes('world marathon majors')) {
-    return "Georgi has extensive international experience, having worked across the U.S. and Europe (Austria, Denmark) with Fortune 500 brands like KTM and Atomic. Currently at Meta in NYC, he brings this global perspective to AI safety work. He's also pursuing the World Marathon Majors -- he's run 9 marathons total, with 3 of the 7 majors completed: Chicago (2019), Berlin (2021), and NYC (2022). Sydney is scheduled for August 2026. This reflects his exceptional discipline, goal-setting ability, and persistence -- qualities that serve well in complex AI safety and transformation initiatives.";
+    return "Georgi has extensive international experience, having worked across the U.S. and Europe (Austria, Denmark) with Fortune 500 brands like KTM and Atomic. Currently at Meta in NYC, he brings this global perspective to AI safety work. He's also pursuing the World Marathon Majors—a series of the world's most prestigious marathons. So far, he's finished Chicago (2019), Berlin (2021), and New York City (2022), plus six other marathons along the way. Sydney is next on the list for August 2026. This reflects his exceptional discipline, goal-setting ability, and persistence—qualities that he brings to his work.";
   }
   
   if (q.includes('location') || q.includes('where') || q.includes('based') || q.includes('visa')) {
