@@ -51,7 +51,7 @@ export default function Home() {
             <div className="about-content">
               <div className="about-item">
                 <p className="about-text">
-                  With 10+ years driving AI strategy and digital transformation across the U.S. and Europe, I specialize in bridging technical AI capabilities with business outcomes. I've led AI adoption initiatives that delivered 25% efficiency gains at Advance Valuations, enabled 5,000+ SMEs at the Wirtschaftskammer Österreich (Austrian Economic Chamber) to adopt AI tools, and consulted for leading brands including KTM and Atomic.
+                  With 10+ years driving AI strategy and digital transformation across the U.S. and Europe, I specialize in bridging technical AI capabilities with business outcomes. I've led AI adoption initiatives that delivered 25% efficiency gains at Advance Valuations, enabled 5,000+ SMEs at the Wirtschaftskammer Österreich (Austrian Economic Chamber) to adopt AI tools, and consulted for leading brands such as KTM and Atomic.
                 </p>
               </div>
               
