@@ -56,7 +56,7 @@ export default function Home() {
                I hold a BS from Worcester Polytechnic Institute (WPI), an MBA from Cambridge College, and specialized graduate studies from Copenhagen Business School (CBS) and WU (Vienna University of Economics and Business).
               </p>
               <p className="about-text">
-              When I'm not working, you'll find me training for my next marathon. I'm pursuing the World Marathon Majors—a series of the world's most prestigious marathons. So far I've finished Chicago (2019), Berlin (2021), and New York City (2022), plus six other marathons along the way. Sydney is next on the list for August 2026.
+              When I'm not working, you'll find me training for my next marathon. I'm pursuing the World Marathon Majors—a series of the world's most prestigious marathons. So far, I've finished Chicago (2019), Berlin (2021), and New York City (2022), plus six other marathons along the way. Sydney is next on the list for August 2026.
               </p>
             </div>
           </div>
