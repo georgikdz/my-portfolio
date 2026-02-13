@@ -51,8 +51,9 @@ export default function Home() {
             <div className="about-content">
               <div className="about-item">
                 <p className="about-text">
-                  With 10+ years driving AI strategy and digital transformation across the U.S. and Europe, I specialize in bridging technical AI capabilities with business outcomes. I've led AI adoption initiatives that delivered 25% efficiency gains at Advance Valuations, enabled 5,000+ SMEs at the Wirtschaftskammer Österreich (Austrian Economic Chamber) to adopt AI tools, and consulted for leading brands such as KTM and Atomic.
-                </p>
+  Georgi has worn many hats throughout his career, working with CEOs, engineering teams, and designers across startups, mid-sized corporations, and NGOs. His international background helps him navigate the nuances of both U.S. and European business cultures. He thrives in startup environments—even when chaotic—where he can contribute meaningfully and collaborate with ambitious, international teams that push him to grow.               
+  Georgi has published research at international Human-Computer Interaction conferences in Crete and Milan, exploring how mobile user experience drives business value. Beyond academic work, he collaborated with the Bulgarian-American Fulbright Commission to publish and distribute a collection of stories to high schools throughout Bulgaria.
+  </p>
               </div>
               
               <div className="about-item">
