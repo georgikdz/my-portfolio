@@ -51,7 +51,7 @@ export default function Home() {
             <div className="about-content">
               <div className="about-item">
                 <p className="about-text">
-  Georgi has worn many hats throughout his career, working with CEOs, engineering teams, and designers across startups, mid-sized corporations, and NGOs. His international background helps him navigate the nuances of both U.S. and European business cultures. He thrives in startup environments -- even when chaotic -- where he can contribute meaningfully and collaborate with ambitious, international teams that push him to grow.     
+  Georgi has worn many hats throughout his career, working with CEOs, engineering teams, and designers across startups, mid-sized corporations, and NGOs. His international background helps him navigate the nuances of both U.S. and European business cultures. He thrives in startup environments, even when chaotic, where he can contribute meaningfully and collaborate with ambitious, international teams that push him to grow.     
     </p>
               </div>
               <div className="about-item">
