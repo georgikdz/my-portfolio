@@ -63,7 +63,7 @@ export default function Home() {
               
               <div className="about-item about-item-highlight">
                 <p className="about-text">
-                  When I'm not working, you'll find me training for my next marathon. I'm pursuing the <strong>World Marathon Majors</strong>—a series of the world's most prestigious marathons. So far, I've finished <strong>Chicago</strong> (2019), <strong>Berlin</strong> (2021), and <strong>New York City</strong> (2022), plus six other marathons along the way. <strong>Sydney</strong> is next on the list for August 2026.
+                  When I'm not working, you'll find me training for my next marathon. I'm pursuing the <strong>Abbott World Marathon Majors</strong> -- a series of the world's 7 most prestigious marathons. So far, I've completed 3/7 Majors: <strong>Chicago</strong> (2019), <strong>Berlin</strong> (2021), and <strong>New York City</strong> (2022), plus six other marathons along the way. <strong>Sydney, London, Tokyo, and Boston </strong> are next on the list .
                 </p>
               </div>
             </div>
