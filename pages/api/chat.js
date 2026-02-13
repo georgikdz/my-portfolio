@@ -65,7 +65,7 @@ function getSmartFallback(question) {
   }
   
   if (q.includes('international') || q.includes('europe') || q.includes('marathon') || q.includes('global') || q.includes('running') || q.includes('world marathon majors')) {
-return "Georgi is pursuing the World Marathon Majors—a series of the world's most prestigious marathons. So far, he's finished Chicago (2019), Berlin (2021), and New York City (2022), plus six other marathons along the way. Sydney is next on the list for August 2026. This reflects his exceptional discipline, goal-setting ability, and persistence—qualities that he brings to his work.";  }
+return "Georgi is pursuing the World Marathon Majors—a series of the world's most prestigious marathons. So far, he's finished Chicago (2019), Berlin (2021), and New York City (2022), plus six other marathons along the way. Sydney is next on the list for August 2026. This reflects his exceptional discipline, goal-setting ability, and persistence -- qualities that he brings to his work.";  }
   
   if (q.includes('location') || q.includes('where') || q.includes('based') || q.includes('visa')) {
     return "Georgi is based in NYC and is a U.S. Permanent Resident, which means no visa complications. Currently working at Meta on Llama model safety, he's always open to discussing exceptional senior leadership opportunities in AI strategy, product management, and digital transformation. His international experience across U.S. and European markets makes him well-suited for roles with global scope.";
