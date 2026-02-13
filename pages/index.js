@@ -57,7 +57,7 @@ export default function Home() {
               
               <div className="about-item">
                 <p className="about-text">
-                  I hold a BS from Worcester Polytechnic Institute (WPI), an MBA from Cambridge College, and specialized graduate studies from the Copenhagen Business School (CBS) and WU Wien (Vienna University of Economics and Business).
+                  I hold a BS in Management Information Systems (MIS) and Economics from Worcester Polytechnic Institute (WPI), an MBA from Cambridge College, and specialized graduate studies from the Copenhagen Business School (CBS) and WU Wien (Vienna University of Economics and Business).
                 </p>
               </div>
               
