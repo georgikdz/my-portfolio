@@ -57,8 +57,8 @@ export default function Home() {
               <div className="about-item">
                 <p className="about-text">
                   I hold a BS in Management Information Systems (MIS) and Economics from Worcester Polytechnic Institute (WPI), an MBA from Cambridge College, and specialized graduate studies from the Copenhagen Business School (CBS) and WU Wien (Vienna University of Economics and Business).
-                  <p Georgi has published research at international Human-Computer Interaction (HCI) conferences in Crete and Milan, exploring how mobile user experience (UX) drives business value. Beyond academic work, he collaborated with the Bulgarian-American Fulbright Commission to publish and distribute a collection of stories to high schools throughout Bulgaria.>
-                </p>
+                  Georgi has published research at international Human-Computer Interaction (HCI) conferences in Crete and Milan, exploring how mobile user experience (UX) drives business value. Beyond academic work, he collaborated with the Bulgarian-American Fulbright Commission to publish and distribute a collection of stories to high schools throughout Bulgaria.
+               
                 </p>
               </div>
               
