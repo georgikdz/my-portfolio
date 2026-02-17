@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta name="google-site-verification" content="g-6FihM9qAVcH7FFqUjSZPJmUFxiIkpwxCBiDkRZ5x8" />
         <title>Georgi Kardzhaliyski, MBA · Product & Research · Product Data Operations · GenAI</title>
         <meta name="description" content="AI Safety & Red-Teaming Analyst at Meta working on Llama model safety. 10+ years driving AI strategy & digital transformation. 25% efficiency gains, 5,000+ businesses transformed. Based in NYC." />
         <meta property="og:title" content="Georgi Kardzhaliyski - AI Safety Analyst at Meta" />
