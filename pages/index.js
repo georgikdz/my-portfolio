@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta name="google-site-verification" content="g-6FihM9qAVcH7FFqUjSZPJmUFxiIkpwxCBiDkRZ5x8" />
         <title>Georgi Kardzhaliyski, MBA · Product & Research · Product Data Operations · GenAI</title>
         <meta name="description" content="AI Safety & Red-Teaming Analyst at Meta working on Llama model safety. 10+ years driving AI strategy & digital transformation. 25% efficiency gains, 5,000+ businesses transformed. Based in NYC." />
         <meta property="og:title" content="Georgi Kardzhaliyski - AI Safety Analyst at Meta" />
@@ -21,6 +20,7 @@ export default function Home() {
         <meta name="twitter:title" content="Georgi Kardzhaliyski - Building & Breaking GenAI @Meta" />
         <meta name="twitter:description" content="AI Safety & Red-Teaming Analyst at Meta | AI Strategy Expert" />
         <meta name="twitter:image" content="https://georgikdz.vercel.app/headshot.jpg" />
+        <meta name="google-site-verification" content="g-6FihM9qAVcH7FFqUjSZPJmUFxiIkpwxCBiDkRZ5x8" />
         <meta name="keywords" content="AI Strategy, Digital Transformation, Meta, Llama, AI Safety, Red Teaming, Worcester Polytechnic Institute (WPI), WPI, Cambridge College, Copenhagen Business School, WU Wien, open to opportunities in NYC and Boston,Business Transformation, Product Management, NYC, Georgi Kardzhaliyski, recruiters NYC, customer success manager NYC" />
         <link rel="canonical" href="https://georgikdz.vercel.app" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
