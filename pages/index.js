@@ -8,16 +8,16 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <>
-      <Head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KNSVR2EQC3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KNSVR2EQC3');
-</script>
+<Head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KNSVR2EQC3"></script>
+  <script dangerouslySetInnerHTML={{
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KNSVR2EQC3');
+    `
+  }} />
         <title>Georgi Kardzhaliyski, MBA · Product & Research · Product Data Operations · GenAI</title>
         <meta name="description" content="AI Safety & Red-Teaming Analyst at Meta working on Llama model safety. 10+ years driving AI strategy & digital transformation. 25% efficiency gains, 5,000+ businesses transformed. Based in NYC." />
         <meta property="og:title" content="Georgi Kardzhaliyski - AI Safety Analyst at Meta" />
