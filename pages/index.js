@@ -29,7 +29,7 @@ export default function Home() {
         <meta name="twitter:title" content="Georgi Kardzhaliyski - Building & Breaking GenAI @Meta" />
         <meta name="twitter:description" content="AI Safety & Red-Teaming Analyst at Meta | AI Strategy Expert" />
         <meta name="twitter:image" content="https://georgikdz.vercel.app/headshot.jpg" />
-        <meta name="google-site-verification" content="g-6FihM9qAVcH7FFqUjSZPJmUFxiIkpwxCBiDkRZ5x8" />
+        <meta name="google-site-verification" content="55A62UzQViq0d2ouDFKqLGQSXKklmR9c3MLqsvoQDrA" />        
         <meta name="keywords" content="AI Strategy, Digital Transformation, Meta, Llama, AI Safety, Red Teaming, Worcester Polytechnic Institute (WPI), WPI, Cambridge College, Copenhagen Business School, WU Wien, open to opportunities in NYC and Boston,Business Transformation, Product Management, NYC, Georgi Kardzhaliyski, recruiters NYC, customer success manager NYC" />
         <link rel="canonical" href="https://georgikdz.vercel.app" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
