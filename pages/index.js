@@ -10,13 +10,13 @@ export default function Home() {
     <>
       <Head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-M8B90KPCXR"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KNSVR2EQC3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-M8B90KPCXR');
+  gtag('config', 'G-KNSVR2EQC3');
 </script>
         <title>Georgi Kardzhaliyski, MBA · Product & Research · Product Data Operations · GenAI</title>
         <meta name="description" content="AI Safety & Red-Teaming Analyst at Meta working on Llama model safety. 10+ years driving AI strategy & digital transformation. 25% efficiency gains, 5,000+ businesses transformed. Based in NYC." />
