@@ -20,6 +20,7 @@ export default function Hero() {
               </a>
             </div>
             <div className="hero-skills">
+              <span className="skill-tag">AI Red-Teaming</span>
               <span className="skill-tag">AI Strategy & Implementation</span>
               <span className="skill-tag">Business Transformation</span>
               <span className="skill-tag">Project Management</span>
