@@ -32,6 +32,8 @@ export default function Home() {
         <meta name="google-site-verification" content="55A62UzQViq0d2ouDFKqLGQSXKklmR9c3MLqsvoQDrA" />        
         <meta name="keywords" content="AI Strategy, Digital Transformation, Meta, Llama, AI Safety, Red Teaming, Worcester Polytechnic Institute (WPI), WPI, Cambridge College, Copenhagen Business School, WU Wien, open to opportunities in NYC and Boston,Business Transformation, Product Management, NYC, Georgi Kardzhaliyski, recruiters NYC, customer success manager NYC" />
         <link rel="canonical" href="https://georgikdz.vercel.app" />
+        <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
