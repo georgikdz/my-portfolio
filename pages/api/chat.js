@@ -1,11 +1,57 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
+// Simple in-memory rate limiter: 10 requests per IP per 60 seconds
+const rateLimitMap = new Map();
+const RATE_LIMIT = 10;
+const WINDOW_MS = 60 * 1000;
+
+function getRateLimitKey(req) {
+  return (
+    req.headers['x-forwarded-for']?.split(',')[0]?.trim() ||
+    req.socket?.remoteAddress ||
+    'unknown'
+  );
+}
+
+function isRateLimited(req) {
+  const key = getRateLimitKey(req);
+  const now = Date.now();
+  const windowStart = now - WINDOW_MS;
+  const timestamps = rateLimitMap.get(key) || [];
+  const recent = timestamps.filter((t) => t > windowStart);
+  recent.push(now);
+  rateLimitMap.set(key, recent);
+
+  // Periodically clean up stale entries to prevent unbounded memory growth
+  if (rateLimitMap.size > 1000) {
+    for (const [k, ts] of rateLimitMap) {
+      if (ts[ts.length - 1] <= windowStart) {
+        rateLimitMap.delete(k);
+      }
+    }
+  }
+
+  return recent.length > RATE_LIMIT;
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method not allowed' });
   }
 
+  if (isRateLimited(req)) {
+    return res.status(429).json({ message: 'Too many requests. Please wait a moment before trying again.' });
+  }
+
   const { message, context } = req.body;
+
+  if (!message || typeof message !== 'string' || message.trim().length === 0) {
+    return res.status(400).json({ message: 'Message is required.' });
+  }
+
+  if (message.length > 1000) {
+    return res.status(400).json({ message: 'Message is too long. Please keep it under 1000 characters.' });
+  }
 
   if (!process.env.GEMINI_API_KEY) {
     console.log('No API key found, using fallback');
