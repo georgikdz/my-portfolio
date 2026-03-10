@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="twitter:description" content="AI Safety & Red-Teaming Analyst at Meta | AI Strategy Expert" />
         <meta name="twitter:image" content="https://georgikdz.vercel.app/headshot.jpg" />
         <meta name="google-site-verification" content="55A62UzQViq0d2ouDFKqLGQSXKklmR9c3MLqsvoQDrA" />        
-        <meta name="keywords" content="AI Strategy, Digital Transformation, Meta, Llama, AI Safety, Red Teaming, Worcester Polytechnic Institute (WPI), WPI, Cambridge College, Copenhagen Business School, WU Wien, open to opportunities in NYC and Boston,Business Transformation, Product Management, NYC, Georgi Kardzhaliyski, recruiters NYC, customer success manager NYC" />
+        <meta name="keywords" content="AI Strategy, Digital Transformation, Meta, Llama, AI Safety, Red Teaming, Worcester Polytechnic Institute (WPI), WPI, Cambridge College, Copenhagen Business School, WU Wien, open to opportunities in NYC and Boston,Business Transformation, Product Management, NYC, Georgi Kardzhaliyski, recruiters NYC, AI safety evaluation, adversarial testing, responsible AI, AI model alignment, enterprise customer success operations, technical support leadership, SaaS product feedback loops, AI adoption strategy, AI workflow automation, customer success manager NYC" />
         <link rel="canonical" href="https://georgikdz.vercel.app" />
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/favicon.png" />
