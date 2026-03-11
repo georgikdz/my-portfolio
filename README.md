@@ -20,7 +20,7 @@ A modern, professional portfolio website showcasing AI strategy, digital transfo
 |-----------|---------|---------|
 | Next.js | 15.5.9 | React framework for production |
 | React | 19.0.0 | UI library |
-| Google Gemini API | 0.24.1 | AI-powered chat assistant |
+| Google Gemini API | 1.42.0 | AI-powered chat assistant |
 | Vercel Analytics | 1.6.1 | Performance and visitor analytics |
 | CSS3 | - | Styling and animations |
 
