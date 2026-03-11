@@ -64,7 +64,7 @@ export default async function handler(req, res) {
 
     const prompt = `${context}\n\nUser Question: ${message}\n\nRespond professionally, under 150 words.`;
     const response = await ai.models.generateContent({
-      model: "gemini-2.0-flash-001",
+      model: "gemini-2.5-flash",
       contents: prompt,
     });
     const text = response.text;
