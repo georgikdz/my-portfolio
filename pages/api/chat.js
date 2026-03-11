@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenAI } from "@google/genai";
 
 // Simple in-memory rate limiter: 10 requests per IP per 60 seconds
 const rateLimitMap = new Map();
@@ -60,13 +60,14 @@ export default async function handler(req, res) {
   }
 
   try {
-    const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-001" });
-    
+    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+
     const prompt = `${context}\n\nUser Question: ${message}\n\nRespond professionally, under 150 words.`;
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text();
+    const response = await ai.models.generateContent({
+      model: "gemini-2.0-flash-001",
+      contents: prompt,
+    });
+    const text = response.text;
 
     res.status(200).json({ response: text });
   } catch (error) {
