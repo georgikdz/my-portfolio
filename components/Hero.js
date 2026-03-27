@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 export default function Hero() {
   return (
     <section id="home" className="hero">
@@ -5,11 +7,24 @@ export default function Hero() {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">Georgi Kardzhaliyski</h1>
-            <p className="hero-subtitle">Product & Research · Product Data Operations · GenAI</p>
+            <p className="hero-subtitle">AI Safety & Product Leader</p>
+            <span
+              className="availability-badge"
+              style={{
+                display: 'inline-block',
+                background: '#1a202c',
+                color: '#f7fafc',
+                padding: '8px 12px',
+                borderRadius: '999px',
+                fontWeight: 600,
+                fontSize: '0.9rem',
+                marginBottom: '12px'
+              }}
+            >
+              🟢 Now interviewing
+            </span>
             <p className="hero-description">
-              Currently improving Llama model safety at Meta through AI red-teaming and adversarial testing. 
-              10+ years of experience driving AI strategy and digital transformation across the U.S. and Europe, 
-              with proven results in building smarter products and delivering measurable business impact.
+              Former AI Safety & Red-Teaming Analyst at Meta (Oct 2025–Mar 2026), where I improved Llama model safety through adversarial testing. Now interviewing for senior roles in AI safety, product, or AI strategy. 10+ years driving quantified impact across the U.S. and Europe; NYC-based U.S. Permanent Resident with immediate availability.
             </p>
             <div className="hero-buttons">
               <a href="#contact" className="btn">
