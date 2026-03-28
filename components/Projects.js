@@ -2,14 +2,14 @@ export default function Projects() {
   // Featured Projects - Top 3, always visible
   const featuredProjects = [
     {
-      title: "AI Model Safety & Red-Teaming",
+      title: "AI Red Teamer & Prompt Engineer - Product & Research",
       description:
         "Improved Llama model safety at Meta Platforms by conducting adversarial testing and red-teaming to uncover jailbreak vulnerabilities and policy-violating outputs. Analyzed and categorized model responses for safety and policy compliance using Meta's taxonomy.",
       tech: [
         "AI Safety",
         "Red-Teaming",
         "Adversarial Testing",
-        "Llama Models",
+        "Promp Engineering",
         "Policy Compliance",
         "Model Evaluation"
       ],
