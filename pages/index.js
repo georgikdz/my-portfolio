@@ -9,15 +9,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Georgi Kardzhaliyski · AI Safety & Product Leader · Immediately Available</title>
+        <title>Georgi Kardzhaliyski, MBA · AI Safety & Product Leader · Open to Opportunities</title>
         <meta
           name="description"
-          content="Former AI Safety & Red-Teaming Analyst at Meta (Oct 2025–Mar 2026). Immediately available for senior AI safety, product, or AI strategy roles. NYC-based U.S. Permanent Resident with 10+ years of quantified impact."
+          content="Former AI Safety & Red-Teaming Analyst at Meta (Oct 2025–Mar 2026). Now seeking senior roles in AI safety, product, or AI strategy. NYC-based U.S. Permanent Resident with 10+ years delivering measurable impact."
         />
         <meta property="og:title" content="Georgi Kardzhaliyski - AI Safety & Product Leader (ex-Meta)" />
         <meta
           property="og:description"
-          content="Former Meta AI Safety analyst who strengthened Llama model safety through adversarial testing. Immediately available for senior AI safety/product roles."
+          content="Former Meta AI Safety analyst; strengthened Llama model safety through adversarial testing. Open to senior AI safety/product opportunities."
         />
         <meta property="og:image" content="https://georgikdz.vercel.app/headshot.jpg" />
         <meta property="og:url" content="https://georgikdz.vercel.app" />
@@ -26,13 +26,13 @@ export default function Home() {
         <meta name="twitter:title" content="Georgi Kardzhaliyski - AI Safety & Product Leader (ex-Meta)" />
         <meta
           name="twitter:description"
-          content="Former Meta AI Safety analyst; now open to senior AI safety/product roles. NYC-based, U.S. PR, immediate availability."
+          content="Former Meta AI Safety analyst; now open to new senior roles."
         />
         <meta name="twitter:image" content="https://georgikdz.vercel.app/headshot.jpg" />
         <meta name="google-site-verification" content="55A62UzQViq0d2ouDFKqLGQSXKklmR9c3MLqsvoQDrA" />
         <meta
           name="keywords"
-          content="AI safety leader, red teaming, adversarial testing, ex-Meta, senior product roles, AI strategy, immediate availability, NYC, U.S. Permanent Resident, hiring AI safety, Llama, recruiter ready, quantified impact"
+          content="AI Strategy, Digital Transformation, Meta, Llama, AI Safety, customer support NYC, Red Teaming, Worcester Polytechnic Institute (WPI), WPI, Cambridge College, Copenhagen Business School, WU Wien, open to opportunities in NYC and Boston,Business Transformation, Product Management, NYC, Georgi Kardzhaliyski, recruiters NYC, AI safety evaluation, adversarial testing, responsible AI, AI model alignment, enterprise customer success operations, technical support leadership, SaaS product feedback loops, AI adoption strategy, AI workflow automation, customer success manager NYC"
         />
         <link rel="canonical" href="https://georgikdz.vercel.app" />
         <link rel="icon" href="/favicon.png" type="image/png" />
@@ -45,38 +45,13 @@ export default function Home() {
               "@type": "Person",
               "name": "Georgi Kardzhaliyski",
               "jobTitle": "AI Safety & Product Leader",
-              "description": "Former AI Safety & Red-Teaming Analyst at Meta (Oct 2025–Mar 2026). Immediately available for senior AI safety/product roles; NYC-based U.S. Permanent Resident; 10+ years quantified impact.",
+              "description": "Former AI Safety & Red-Teaming Analyst at Meta (Oct 2025–Mar 2026). Actively seeking senior AI safety/product roles.",
               "url": "https://georgikdz.vercel.app",
               "sameAs": [
                 "https://linkedin.com/in/georgikdz",
                 "https://github.com/georgikdz"
-              ],
-              "alumniOf": [
-                { "@type": "CollegeOrUniversity", "name": "Worcester Polytechnic Institute (WPI)" },
-                { "@type": "CollegeOrUniversity", "name": "Cambridge College" },
-                { "@type": "CollegeOrUniversity", "name": "Copenhagen Business School (CBS)" },
-                { "@type": "CollegeOrUniversity", "name": "WU (Vienna University of Economics and Business)" }
-              ],
-              "knowsAbout": [
-                "AI Safety",
-                "Red Teaming",
-                "Adversarial Testing",
-                "AI Strategy",
-                "Product Management",
-                "Business Transformation"
               ]
             })
-          }}
-        />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KNSVR2EQC3"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);} 
-      gtag('js', new Date());
-      gtag('config', 'G-KNSVR2EQC3');
-    `,
           }}
         />
       </Head>
