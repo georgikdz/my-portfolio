@@ -1,5 +1,3 @@
-import Head from 'next/head'
-
 export default function Hero() {
   return (
     <section id="home" className="hero">
@@ -31,7 +29,7 @@ export default function Hero() {
                 💬 Let's Connect
               </a>
               <a href="/resume.pdf" className="btn btn-outline" download>
-                📄 Download Resume
+                ���� Download Resume
               </a>
             </div>
             <div className="hero-skills">
@@ -43,10 +41,10 @@ export default function Hero() {
               <span className="skill-tag">Agile Methodologies</span>
             </div>
           </div>
-          
+
           <div className="hero-image">
-            <img 
-              src="/headshot.jpg" 
+            <img
+              src="/headshot.jpg"
               alt="Georgi Kardzhaliyski - Professional headshot"
               className="headshot"
             />
