@@ -29,7 +29,7 @@ export default function Hero() {
                 💬 Let's Connect
               </a>
               <a href="/resume.pdf" className="btn btn-outline" download>
-                ���� Download Resume
+                📄 Download Resume
               </a>
             </div>
             <div className="hero-skills">
