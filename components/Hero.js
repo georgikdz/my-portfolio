@@ -22,7 +22,7 @@ export default function Hero() {
               🟢 Now interviewing
             </span>
             <p className="hero-description">
-              Former AI Safety & Red-Teaming Analyst at Meta (Oct 2025–Mar 2026), where I improved Llama model safety through adversarial testing. Now interviewing for senior roles in AI safety, product, or AI strategy. 10+ years driving quantified impact across the U.S. and Europe; NYC-based U.S. Permanent Resident with immediate availability.
+              Former AI Red Teamer & Prompt Engineer at Meta (Oct 2025 - Mar 2026), where I improved Llama model safety through adversarial testing. Now interviewing for senior roles in AI safety, product, or AI strategy. 10+ years driving quantified impact across the U.S. and Europe; NYC-based U.S. Permanent Resident with immediate availability.
             </p>
             <div className="hero-buttons">
               <a href="#contact" className="btn">
